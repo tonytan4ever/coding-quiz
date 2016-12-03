@@ -1,0 +1,29 @@
+Flask>=0.11.0
+
+# Flask Extensions
+Flask-Assets
+Flask-Caching
+Flask-DebugToolbar
+# Flask-Login
+Flask-SQLAlchemy
+Flask-Script
+Flask-WTF
+Flask-Security
+Flask-Bootstrap
+Flask-OAuthlib
+Flask-Migrate
+
+# Social required
+facebook-sdk
+python-twitter
+
+# Other
+itsdangerous
+cssmin
+jsmin
+
+# Testing
+pytest
+pytest-cov
+mccabe
+flake8

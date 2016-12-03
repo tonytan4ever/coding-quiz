@@ -1,0 +1,16 @@
+<uwsgi id="styles">
+    <socket>/tmp/styles.sock</socket>
+    <master/>
+    <chdir>/srv/styles_webapp/</chdir>
+    <module>wsgi</module>
+    <pidfile>/tmp/styles.pid</pidfile>
+    <daemonize>/var/log/uwsgi/styles.log</daemonize>
+    <processes>4</processes>
+    <harakiri>60</harakiri>
+    <reload-mercy>8</reload-mercy>
+    <cpu-affinity>1</cpu-affinity>
+    <stats>/tmp/stats.socket</stats>
+    <uid>uwsgi</uid>
+    <gid>www-data</gid>
+    <vacuum/>
+</uwsgi>
